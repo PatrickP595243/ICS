@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="stylesheet" type="text/css" href="../CSS/
+	theme.css">
+	<title>Patrick's Site</title>
+	<link rel="icon" href="../images/tlk.png">
+
+</head>
+
+<body>
+	
+<div class="row" id="body">
+  <div class="column left" style="background-color:#ededed;">
+    <canvas id="myCanvas7" name="Yar" width="250" height="100" style="border:1px solid #000000;">
+			</canvas>
+	<p></p>
+	<canvas id="myCanvas8" width="250" height="400" style="border:1px solid #000000;">
+			</canvas>
+		<h3>Add an announcement:</h3>
+		<input id="announcement">
+		<button type="button" onclick="announcements()">Submit</button>
+  </div>
+  <div class="column right" style="background-color:#ededed;"">
+    <div class="navbar">
+	  	<a class="active" href="../index.html">Home</a>
+		<a href="assignments.html">Assignments</a>
+		<a href="contact.html">Contact</a>
+		<a href="about.html">About</a>
+  	</div>
+  	<h2>Assignments</h2>
+	<div id="rectangle" class="aligncenter">
+	  	<button onclick="loop2()">Pattern!</button>
+	</div>
+	<p id="pattern"></p>
+	<div id="rectangle" class="aligncenter">
+	  	<button onclick="loop4()">Pattern Vol 2</button>
+	</div>
+	  	<p id="pattern2"></p>		
+	<div id="rectangle" class="aligncenter">
+	  	<button onclick="loop5()">Pattern Vol 3</button>
+	</div>
+	<div style="text-align: left">
+	  	<p id="pattern3" style="text-align: right; display: inline-block;"></p>
+	</div>
+	<div id="rectangle" class="aligncenter">
+	  	<button onclick="loop6()">Pattern Vol 6</button>
+	</div>
+	<p id="pattern4"></p>
+	<div id="rectangle" class="aligncenter">
+		<button onclick="guessNumber()">Guess the Number!</button>
+	</div>
+  	<div id="rectangle" class="aligncenter">
+  		<button onclick="string()">String 1</button>
+  	</div>
+  	<div id="rectangle" class="aligncenter">
+  		<button onclick="string2()">String 2</button>
+  	</div>
+  	<div id="rectangle" class="aligncenter">
+  		<button onclick="string3()">String 3</button>
+  	</div>
+  	<div id="rectangle" class="aligncenter">
+  		<button onclick="pigLatin1()">Pig Latin</button>
+  	</div>
+  	<div id="rectangle" class="aligncenter">
+  		<button onclick="encryption()">Encryption</button>
+  	</div>
+  	<div id="rectangle" class="aligncenter">
+  		<button onclick="encryption()">Decryption</button>
+  	</div>
+  	<div>
+	 	<svg width="500" height="500" fill="#ffeecc">
+	    	<rect width="500" height="500" style="fill:#ffeecc"/>
+	    	<rect width="225" height="200" x="145" y="150" rx="50" ry="50" style="fill:#ffbf80">
+		</svg> 
+ 	<footer>
+		<p>Patrick Pineda</p>
+		<p>ICS3U0</p>
+		<p>595243@pdsb.net</p>
+		<p><a href="#body">Back to top</a></p>
+	</footer>
+  </div>
+</div>
+
+<script src="../JS/main.js"></script>
+</body>
+</html>
